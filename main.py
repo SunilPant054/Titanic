@@ -1,8 +1,7 @@
 import pandas as pd 
 import numpy as np
+from dataVisualization import Visualization
 
 class main:
 
-    training = pd.read_csv('train.csv')
-    test = pd.read_csv('test.csv')
-    print(training.head())
+   visualization = Visualization()
