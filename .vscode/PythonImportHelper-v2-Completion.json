@@ -1,0 +1,46 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "Visualization",
+        "importPath": "dataVisualization",
+        "description": "dataVisualization",
+        "isExtraImport": true,
+        "detail": "dataVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "Visualization",
+        "kind": 6,
+        "importPath": "dataVisualization",
+        "description": "dataVisualization",
+        "peekOfCode": "class Visualization:\n    training = pd.read_csv('train.csv')\n    test = pd.read_csv('test.csv')\n    # training['train_test'] = 1\n    # test['train_test'] = 0\n    # test['Survived'] = np.NaN\n    training.info() # Gives the null value count and datatypes of columns\n    print(training.describe())",
+        "detail": "dataVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class main:\n   visualization = Visualization()",
+        "detail": "main",
+        "documentation": {}
+    }
+]
